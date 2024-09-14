@@ -1,0 +1,105 @@
+/* Top bar*/
+._3Z7VQ1IMk4E3HsHvrkLNgo,
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K {
+    background: #212121;
+}
+
+/* Bottom bar gradient */
+._3vCzSrrXZzZjVJFZNg9SGu {
+    background: #212121;
+}
+
+/* Disabled back/forward button */
+._25lBLzuVeYAUG279up4xP8._2cO0HdvLEGAdhosLekWsmo {
+    color: rgb(100, 100, 100);
+}
+
+/* Button images */
+._3izqEKa-zuPIrUDSm1bRvf ._3GFljPJsX8WvOJcPupy_RG,
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3KaB94Jl4r0hFkthDPJy09,
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3GFljPJsX8WvOJcPupy_RG,
+._34bQcTHo5QKzuujoEyU1tm, ._25lBLzuVeYAUG279up4xP8,
+.RtSv39ZoBOySnb8XQ5hJf._3qhGkQ5qLVNQQ-J2-uPoHt ._34bQcTHo5QKzuujoEyU1tm,
+._2foCkpRXhqq0UGVE50BWqj ._1KrJ3sFAqPBN9mfpaNTU5F,
+._1TdaAqMFadi0UTqilrkelR ._1KrJ3sFAqPBN9mfpaNTU5F,
+.ip-YZhijAMZcuRoXBGiye ._1KrJ3sFAqPBN9mfpaNTU5F {
+    color: white;
+}
+
+/* Top bar nav buttons */
+._2Lu3d-5qLmW4i19ysTt2jT,
+._3yD46y5pd3zOGR7CzKs0mC ._2jphjrSifC6orDT4g_7Wd,
+._2foCkpRXhqq0UGVE50BWqj ._3OhUxFVlQYr9W5ThxstR8k,
+._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k,
+.ip-YZhijAMZcuRoXBGiye ._3wJnTtcTLEp0R7eQj_mK8Y {
+    color: rgb(255, 255, 255);
+    text-shadow:
+        -1px -1px 0 #000,
+        0 -1px 0 #000,
+        1px -1px 0 #000,
+        1px 0 0 #000,
+        1px 1px 0 #000,
+        0 1px 0 #000,
+        -1px 1px 0 #000,
+        -1px 0 0 #000;
+}
+
+/* Selected tab */
+._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ,
+._3yD46y5pd3zOGR7CzKs0mC.online {
+    color: #fe56aa;
+    text-shadow:
+        -1px -1px 0 #000,
+        0 -1px 0 #000,
+        1px -1px 0 #000,
+        1px 0 0 #000,
+        1px 1px 0 #000,
+        0 1px 0 #000,
+        -1px 1px 0 #000,
+        -1px 0 0 #000;
+}
+
+/* Selected tab before */
+._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ::before {
+    content: "♥ ";
+    color: red;
+}
+
+/* Selected tab after */
+._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ::after {
+    content: " ♥";
+    color: red;
+    display: inline;
+    background: transparent;
+}
+
+/* Store url text */
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt .MZPxEZcxAGtPDf1NYtouS {
+    font-size: 13px;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,
+        0 -1px 0 #000,
+        1px -1px 0 #000,
+        1px 0 0 #000,
+        1px 1px 0 #000,
+        0 1px 0 #000,
+        -1px 1px 0 #000,
+        -1px 0 0 #000;
+}
+
+/* Dropdown menus */
+._2EstNjFIIZm_WUSKm5Wt7n {
+    background: #303030;
+    border: 3px solid #fe56aa;
+}
+
+/* temp fix for min-width issue */
+.PP7LM0Ow1K5qkR8WElLpt[style*="min-width: 144.656px"] {
+    min-width: 145px !important;
+}
+
+
+.PP7LM0Ow1K5qkR8WElLpt[style*="min-width: 108.875px"] {
+    min-width: 126px !important;
+}

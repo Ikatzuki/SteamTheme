@@ -1,0 +1,22 @@
+@import url('colors.css');
+
+.home_ctn {
+    background: var(--main_background) !important;
+}
+
+.home_ctn.apps_recommended_by_curators_ctn {
+    background: var(--main_background) !important;
+}
+
+.home_ctn.discovery_queue_ctn {
+    background: var(--main_background) !important;
+}
+
+.home_ctn.tab_container {
+    background: var(--main_background) !important;
+}
+
+.home_ctn.top_new_releases {
+    margin-top: none !important;
+    margin-bottom: none !important;
+}

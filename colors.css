@@ -1,0 +1,13 @@
+:root {
+    /* 
+    * @name Main Accent
+    * @description Main accent color, used for things like selection and highlighting
+    */
+    --main_accent: #fe56aa;
+
+    /* 
+    * @name Main Background
+    * @description Main background color used
+    */
+    --main_background: #303030;
+}
