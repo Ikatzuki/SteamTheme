@@ -22,6 +22,10 @@
     margin-bottom: none !important;
 }
 
+.home_page_col_wrapper {
+    background: var(--main_background) !important;
+}
+
 
 ::-webkit-scrollbar-thumb {
     background-color: #00ff15 !important;
