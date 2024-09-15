@@ -1,3 +1,49 @@
-/**
- * @description This file styles friends list, chat, and other related areas. 
- */
+@import url('colors.css');
+
+/* Friends window ellipse color in top */
+.statusHeaderGlow {
+    filter: hue-rotate(90deg);
+}
+
+/* Remove blue tint at the top of friends list - Thanks Spacetheme! */
+.singleWindowFocusBar {
+    mask: unset;
+    -webkit-mask: unset;
+    background: unset;
+}
+
+/* Remove blue tint at the top of friends list - Thanks Spacetheme! */
+.TitleBar {
+    top: -32px;
+    width: calc(100% + 32px);
+    margin-left: -16px;
+}
+
+/* Top bar background color */
+.friendListHeaderContainer {
+    background-color: var(--main_background_alt);
+}
+
+/* Mid friends list section background */
+.friendlistListContainer {
+    background: var(--main_background);
+}
+
+/* Footer */
+.friendListFooter {
+    background-color: var(--main_background_alt);
+}
+
+/* Group chat list background */
+.chatRoomListContainer {
+    background: var(--main_background);
+}
+
+/* Active friends chat header */
+.activeTab {
+    background-color: var(--main_background_alt2);
+}
+
+.friendsListSectionTitle {
+    background-color: var(--main_background_alt2);
+}
