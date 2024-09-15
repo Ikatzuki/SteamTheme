@@ -69,3 +69,42 @@ body::-webkit-scrollbar-track {
 .DialogBody::-webkit-scrollbar {
 	display:none!important;
 }
+
+/* Top store bar background (Your Store, New & Noteworthy, Categories) */
+#store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
+    background: var(--main_background_alt) !important;
+}
+
+/* Top store bar button text (Your Store, New & Noteworthy, Categories) */
+.a.pulldown_desktop, .store_nav .tab > span {
+    text-shadow: var(--black_outline_text) !important;
+}
+
+/* Top store bar search bar background */
+.searchbox {
+    background: var(--main_background) !important;
+    border: 1px solid white !important;
+}
+
+/* Top store bar search bar default input text */
+.searchbox input.default, input#store_nav_search_term {
+    margin-top: 2px !important;
+    font-family: "expressway" !important;
+    font-size: 16px !important;
+    height: 20px !important;
+}
+
+/* Top store bar search bar input text */
+.searchbox input {
+    margin-top: 0px !important;
+}
+
+/* Top store bar search bar input text - Selected */
+input#store_nav_search_term::selection {
+    background: var(--selected_accent) !important;
+}
+
+input::-webkit-input-placeholder {
+	opacity:1 !important;
+    color: white !important;
+}
