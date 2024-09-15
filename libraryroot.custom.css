@@ -1,74 +1,79 @@
-/* Top bar*/
+@import url('colors.css');
+
+/* Top bar */
 ._3Z7VQ1IMk4E3HsHvrkLNgo,
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K {
-    background: #212121;
+    background: var(--main_background_alt);
 }
 
-/* Bottom bar gradient */
+/* Footer bar */
 ._3vCzSrrXZzZjVJFZNg9SGu {
-    background: #212121;
+    background: var(--main_background_alt);
 }
 
-/* Disabled back/forward button */
+/* Back/forward button - Deactivated */
 ._25lBLzuVeYAUG279up4xP8._2cO0HdvLEGAdhosLekWsmo {
     color: rgb(100, 100, 100);
+}
+
+/* Back/forward button - Activated + Hovered */
+._25lBLzuVeYAUG279up4xP8._1LYTHQzcI1u6tcxbbcc5V3:hover {
+    color: var(--hovered_accent);
 }
 
 /* Button images */
 ._3izqEKa-zuPIrUDSm1bRvf ._3GFljPJsX8WvOJcPupy_RG,
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3KaB94Jl4r0hFkthDPJy09,
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3GFljPJsX8WvOJcPupy_RG,
-._34bQcTHo5QKzuujoEyU1tm, ._25lBLzuVeYAUG279up4xP8,
+._34bQcTHo5QKzuujoEyU1tm,
+._25lBLzuVeYAUG279up4xP8,
 .RtSv39ZoBOySnb8XQ5hJf._3qhGkQ5qLVNQQ-J2-uPoHt ._34bQcTHo5QKzuujoEyU1tm,
 ._2foCkpRXhqq0UGVE50BWqj ._1KrJ3sFAqPBN9mfpaNTU5F,
 ._1TdaAqMFadi0UTqilrkelR ._1KrJ3sFAqPBN9mfpaNTU5F,
-.ip-YZhijAMZcuRoXBGiye ._1KrJ3sFAqPBN9mfpaNTU5F {
+.ip-YZhijAMZcuRoXBGiye ._1KrJ3sFAqPBN9mfpaNTU5F,
+.RtSv39ZoBOySnb8XQ5hJf._9YK5IY219Pm_F53DAxyYp ._34bQcTHo5QKzuujoEyU1tm {
     color: white;
 }
 
-/* Top bar nav buttons */
+/* Top bar small nav buttons (Steam, View, Friends, Games, Help) */
 ._2Lu3d-5qLmW4i19ysTt2jT,
 ._3yD46y5pd3zOGR7CzKs0mC ._2jphjrSifC6orDT4g_7Wd,
 ._2foCkpRXhqq0UGVE50BWqj ._3OhUxFVlQYr9W5ThxstR8k,
 ._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k,
 .ip-YZhijAMZcuRoXBGiye ._3wJnTtcTLEp0R7eQj_mK8Y {
     color: rgb(255, 255, 255);
-    text-shadow:
-        -1px -1px 0 #000,
-        0 -1px 0 #000,
-        1px -1px 0 #000,
-        1px 0 0 #000,
-        1px 1px 0 #000,
-        0 1px 0 #000,
-        -1px 1px 0 #000,
-        -1px 0 0 #000;
+    text-shadow: var(--black_outline_text);
 }
 
-/* Selected tab */
+/* Unselected main nav button - Hovered*/
+._7AlhCx3XGzBeIrQaCneUD:hover:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ {
+    color: var(--hovered_accent);
+}
+
+/* Selected main nav button */
 ._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ,
 ._3yD46y5pd3zOGR7CzKs0mC.online {
-    color: #fe56aa;
-    text-shadow:
-        -1px -1px 0 #000,
-        0 -1px 0 #000,
-        1px -1px 0 #000,
-        1px 0 0 #000,
-        1px 1px 0 #000,
-        0 1px 0 #000,
-        -1px 1px 0 #000,
-        -1px 0 0 #000;
+    color: var(--selected_accent);
+    text-shadow: var(--black_outline_text);
+}
+
+/* Selected main nav button - Hovered*/
+._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ:hover,
+._3yD46y5pd3zOGR7CzKs0mC.online:hover {
+    color: var(--hovered_accent);
+    text-shadow: var(--black_outline_text);
 }
 
 /* Selected tab before */
 ._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ::before {
     content: "♥ ";
-    color: red;
+    color: var(--heart_colors);
 }
 
 /* Selected tab after */
 ._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ::after {
     content: " ♥";
-    color: red;
+    color: var(--heart_colors);
     display: inline;
     background: transparent;
 }
@@ -77,29 +82,47 @@
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt .MZPxEZcxAGtPDf1NYtouS {
     font-size: 13px;
     color: white;
-    text-shadow:
-        -1px -1px 0 #000,
-        0 -1px 0 #000,
-        1px -1px 0 #000,
-        1px 0 0 #000,
-        1px 1px 0 #000,
-        0 1px 0 #000,
-        -1px 1px 0 #000,
-        -1px 0 0 #000;
+    text-shadow: var(--black_outline_text);
 }
 
 /* Dropdown menus */
 ._2EstNjFIIZm_WUSKm5Wt7n {
-    background: #303030;
-    border: 3px solid #fe56aa;
+    background: var(--main_background);
+    border: 3px solid var(--border_accent);
 }
 
-/* temp fix for min-width issue */
+/* Temp fix for store dropdown issue */
 .PP7LM0Ow1K5qkR8WElLpt[style*="min-width: 144.656px"] {
     min-width: 145px !important;
 }
 
-
+/* Temp fix for library dropdown issue */
 .PP7LM0Ow1K5qkR8WElLpt[style*="min-width: 108.875px"] {
     min-width: 126px !important;
+}
+
+/* Notification popup https://i.imgur.com/OPEdCzO.png */
+._1OOQPJx0nCNP9ME9toCmV7 {
+	background: #ff0000 !important;
+	border-top: 1px solid #fffb00 !important;
+}
+
+/* View Notifications Button with a notification */
+.RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd {
+    background-color: var(--selected_accent);
+}
+
+/* View Notifications Button with a notification */
+.RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd:not(._1QQWjaXmb1eTHZpeIhQA_5):hover {
+    background-color: var(--hovered_accent);
+}
+
+/* View News from Steam Button with a notification */
+._5wILZhsLODVwGfcJ0hKmJ._1oEwirQksXfZ-3RWWslbAR {
+    background-color: var(--selected_accent);
+}
+
+/* View News from Steam Button with a notification - Hovered*/
+._5wILZhsLODVwGfcJ0hKmJ._1oEwirQksXfZ-3RWWslbAR:hover {
+    background-color: var(--hovered_accent);
 }
