@@ -5,14 +5,13 @@
     --hovered_accent: #ff8ac5;
     --border_accent: #fe56aa;
     --heart_colors: #ff0000;
-
-    --black_outline_text: 
-    -1px -1px 0 #000,
-    0 -1px 0 #000,
-    1px -1px 0 #000,
-    1px 0 0 #000,
-    1px 1px 0 #000,
-    0 1px 0 #000,
-    -1px 1px 0 #000,
-    -1px 0 0 #000;
+    --black_outline_text:
+        -1px -1px 0 #000,
+        0 -1px 0 #000,
+        1px -1px 0 #000,
+        1px 0 0 #000,
+        1px 1px 0 #000,
+        0 1px 0 #000,
+        -1px 1px 0 #000,
+        -1px 0 0 #000;
 }

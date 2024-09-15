@@ -89,7 +89,6 @@ body::-webkit-scrollbar-track {
 /* Top store bar search bar default input text */
 .searchbox input.default, input#store_nav_search_term {
     margin-top: 2px !important;
-    font-family: "expressway" !important;
     font-size: 16px !important;
     height: 20px !important;
 }
@@ -104,6 +103,7 @@ input#store_nav_search_term::selection {
     background: var(--selected_accent) !important;
 }
 
+/* Top store bar search bar default input text webkit */
 input::-webkit-input-placeholder {
 	opacity:1 !important;
     color: white !important;
