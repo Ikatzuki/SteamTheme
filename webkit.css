@@ -80,10 +80,34 @@ body::-webkit-scrollbar-track {
     text-shadow: var(--black_outline_text) !important;
 }
 
+/* Top store bar button text (Your Store, New & Noteworthy, Categories) - Hovered */
+.store_nav .tab:hover > span {
+    background: linear-gradient(90deg, rgb(244, 33, 226, 90%) 10%, rgb(0 0 0 / 10%)) !important;
+}
+
 /* Top store bar search bar background */
 .searchbox {
     background: var(--main_background) !important;
     border: 1px solid white !important;
+}
+
+/* Top store bar search bar search button */
+#store_search_link {
+    display: none !important;
+}
+
+/* Top store bar wishlish button */
+.store_header_btn_gray {
+    background-image: none !important;
+    background-color: var(--main_background_alt) !important;
+}
+
+/* Top store bar wishlish button - Hovered */
+.store_header_btn_gray a:hover {
+    color: white !important;
+    background-image: none !important;
+    text-shadow: var(--black_outline_text) !important;
+    background-color: var(--main_background) !important;
 }
 
 /* Top store bar search bar default input text */
@@ -107,4 +131,174 @@ input#store_nav_search_term::selection {
 input::-webkit-input-placeholder {
 	opacity:1 !important;
     color: white !important;
+}
+
+/* Trending among friends cards background */
+.friends_recently_purchased .store_capsule {
+    background-image: none !important;
+    background: var(--main_background_alt) !important;
+}
+
+/* Trending among friends cards friends bar background */
+.friends_recently_purchased .friends_container {
+    background: var(--main_background) !important;
+    border-top: none !important;
+}
+
+/* Updates and offers cards bottom bar background */
+.home_marketing_message {
+    background: var(--main_background_alt) !important;
+}
+
+/* Game card price blocks (?) */
+.store_capsule .discount_block {
+    background: var(--main_background_alt) !important;
+}
+
+/* Featured & recommended right side card background */
+.store_main_capsule .info {
+    background: var(--main_background_alt) !important;
+}
+
+/* Features & recommended right side card discount price background */
+.discount_block_inline .discount_prices {
+    background: var(--main_background_alt2) !important;
+}
+
+/* Special offer cards */
+.spotlight_content {
+    background: var(--main_background_alt) !important;
+}
+
+/* Special offer cards price background */
+.store_capsule .discount_block.daily_deal_discount > .discount_prices {
+    background: var(--main_background_alt2) !important;
+}
+
+/* Special offer cards discount price background */
+.discount_block_large .discount_prices {
+    background: var(--main_background_alt2) !important;
+}
+
+/* From developers and publishers that you know card bottom bar backgrounds */
+.recommended_creators_ctn .recommended_creators_container {
+    background: var(--main_background_alt) !important;
+    border-top: none !important;
+}
+
+/* Because you played * cards background */
+body.v6 .deep_dive_key_tags {
+    border-top: none !important;
+    background: var(--main_background) !important;
+}
+
+/* Because you played * cards game tags*/
+body.v6 .deep_dive_tag {
+    background: var(--main_background_alt) !important;
+    color: white !important;
+    text-shadow: var(--black_outline_text) !important;
+}
+
+/* New & Trending, Top Sellers etc category lists */
+.tab_item.focus {
+    background: var(--hovered_accent) !important;
+}
+
+/* New & Trending, Top Sellers etc category lists right card */
+#tab_preview_container {
+    background: var(--hovered_accent) !important;
+}
+
+/* New & Trending, Top Sellers etc category lists item names */
+.tab_item_name {
+    color: white !important;
+    text-shadow: var(--black_outline_text) !important;
+}
+
+/* New & Trending, Top Sellers etc category lists item tags */
+.tab_item_details .tab_item_top_tags {
+    color: #c7c7c7 !important;
+    text-shadow: var(--black_outline_text) !important;
+}
+
+/* New & Trending, Top Sellers etc category lists active tab background */
+.home_tab.active .tab_content {
+    background-color: var(--main_background_alt) !important;
+}
+
+/* New & Trending, Top Sellers etc category lists tab text */
+.home_tab .tab_content {
+    color: white !important;
+    text-shadow: var(--black_outline_text) !important;
+}
+
+/* New & Trending, Top Sellers etc category lists see more footer */
+.tab_see_more, .tab_see_more::selection {
+    background-color: none !important;
+    color: white !important;
+    text-shadow: var(--black_outline_text) !important;
+}
+
+/* New & Trending, Top Sellers etc category lists item no discount full cost text */
+.discount_block.no_discount .discount_final_price {
+    text-shadow: var(--black_outline_text) !important;
+}
+
+/* New & Trending, Top Sellers etc category lists item full cost text - Hovered */
+.tab_item.focus .discount_block .discount_final_price {
+    color: white !important;
+    text-shadow: var(--black_outline_text) !important;
+}
+
+/* New & Trending, Top Sellers etc category lists item original price text, release date text */
+.discount_original_price,
+.tab_item .release_date {
+    color: #b5b5b5 !important;
+    text-shadow: var(--black_outline_text) !important;
+}
+
+/* Browse All, New Releases and various other buttons */
+.btnv6_white_transparent {
+    background: var(--main_background_alt2) !important;
+}
+
+/* New Releases, Specials, Free Games & By User Tags buttons */
+.big_button {
+    background: var(--selected_accent) !important;
+    text-shadow: var(--black_outline_text) !important;
+}
+
+/* New Releases, Specials, Free Games & By User Tags buttons - Hovered */
+.big_button:hover {
+    background: var(--hovered_accent) !important;
+    text-shadow: var(--black_outline_text) !important;
+}
+
+/* The community recommends */
+.community_recommendation_app > .right_col {
+    background: var(--main_background_alt) !important;
+}
+
+/* The community recommends left/right buttons */
+.community_recommendation_app > .right_col > .paging_thumbs > .community_recommendation_arrow {
+    color: white !important;
+    text-shadow: var(--black_outline_text) !important;
+    background-color: var(--main_background_alt2) !important;
+}
+
+/* The community recommends left/right buttons - Hovered */
+.community_recommendation_app > .right_col > .paging_thumbs > .community_recommendation_arrow:hover {
+    color: white !important;
+    text-shadow: var(--black_outline_text) !important;
+    background-color: var(--hovered_accent) !important;
+}
+
+/* Big left/right buttons next to carousel containers */
+.carousel_container .arrow.right:hover {
+    background: linear-gradient(to right, rgba( 171, 218, 244, 0) 5%,rgba(255, 142, 246, 0.568) 95%) !important;
+}
+
+/* Big left/right buttons next to carousel containers */
+.carousel_container .arrow.left:hover {
+    background: linear-gradient(to left, rgba( 171, 218, 244, 0) 5%,rgba(255, 142, 246, 0.568) 95%) !important;
 }
