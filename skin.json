@@ -19,6 +19,5 @@
     "version": "1.0.0",
 
     "Steam-WebKit": "webkit.css",
-    "UseDefaultPatches": true,
-    "RootColors": "colors.css"
+    "UseDefaultPatches": true
 }
