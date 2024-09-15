@@ -44,6 +44,17 @@
     background-color: var(--main_background_alt2);
 }
 
+/* Group chats header */
 .friendsListSectionTitle {
     background-color: var(--main_background_alt2);
+}
+
+/* Own user name top of friends list */
+.currentUserContainer .nOdcT-MoOaXGePXLyPe0H {
+    color: var(--selected_accent);
+}
+
+/* Our own user online text */
+.titleBarContainer .currentUserContainer ._1BbOegz8bYL7iPzgYpOgQI ._2Ri005Wg_uXDTa71kdRbcN {
+    color: var(--hovered_accent);
 }
