@@ -26,6 +26,9 @@
     background: var(--main_background) !important;
 }
 
+body.v6.infinite_scrolling #footer.small_footer {
+    background: var(--main_background_alt) !important;
+}
 
 ::-webkit-scrollbar-thumb {
     background-color: #00ff15 !important;
