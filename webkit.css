@@ -1,5 +1,6 @@
 @import url('colors.css');
 
+/* Steam store background color (?) */
 .home_ctn {
     background: var(--main_background) !important;
 }
@@ -19,4 +20,45 @@
 .home_ctn.top_new_releases {
     margin-top: none !important;
     margin-bottom: none !important;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #00ff15 !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--main_background) !important;
+}
+
+body::-webkit-scrollbar-thumb:window-active {
+	background: var(--main_background) !important;
+}
+
+body::-webkit-scrollbar-thumb:window-inactive {
+	background: #e4e4e4 !important;
+}
+
+body::-webkit-scrollbar-thumb:window-inactive:hover {
+	background: var(--hovered_accent) !important;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: var(--main_background) !important;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+	background-color: var(--main_background) !important;
+}
+
+body::-webkit-scrollbar {
+	background-color: var(--main_background_alt) !important;
+}
+
+body::-webkit-scrollbar-track {
+
+}
+
+.DialogBody::-webkit-scrollbar {
+	display:none!important;
 }
