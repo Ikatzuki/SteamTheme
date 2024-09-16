@@ -78,3 +78,8 @@
 .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN {
     background: none;
 }
+
+/* Chat window history background */
+.chatHistoryScroll {
+    background: var(--main_background);
+}
