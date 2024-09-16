@@ -14,9 +14,13 @@
 
 /* Remove blue tint at the top of friends list - Thanks Spacetheme! */
 .TitleBar {
-    top: -32px;
-    width: calc(100% + 32px);
-    margin-left: -16px;
+    top: -15px;
+}
+
+/* Push close/max/minimize buttons back down */
+.friendsui-container .title-area-icon {
+    top: 15px;
+    position: relative;
 }
 
 /* Top bar background color */
@@ -82,4 +86,29 @@
 /* Chat window history background */
 .chatHistoryScroll {
     background: var(--main_background);
+}
+
+/* Chat window your messages */
+.MultiUserChat .isCurrentUser .msgText {
+    color: #d3d3d3;
+}
+
+/* Chat window their messages */
+.msgText {
+    color: white;
+}
+
+/* Chat window your username */
+.isCurrentUser ._2m5YDddCyVhilOuWH-bTC1 {
+    color: var(--hovered_accent);
+}
+
+/* Chat window your username - Ingame */
+.isCurrentUser ._1KPraihJAKiBwLJWmOlju2 {
+    color: var(--selected_accent)
+}
+
+/* Chat window send button */
+._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy) {
+    background: linear-gradient(136deg, #c400d6 1%, #ff1aec 60%);
 }
