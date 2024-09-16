@@ -111,10 +111,23 @@ html._14wqdluDeDnnEcg3OSLEmd ._1n7Wloe5jZ6fSuvV18NNWI:hover {
     min-width: 126px !important;
 }
 
-/* Notification popup https://i.imgur.com/OPEdCzO.png */
+/* Notification popup */
 ._1OOQPJx0nCNP9ME9toCmV7 {
-	background: #ff0000 !important;
-	border-top: 1px solid #fffb00 !important;
+    border-radius: 5px;
+    background: var(--main_background_alt);
+    border: 1px solid var(--selected_accent);
+}
+
+/* Notification popup - Hovered */
+._1OOQPJx0nCNP9ME9toCmV7:hover {
+    border-radius: 5px;
+    background: var(--main_background);
+    border: 1px solid var(--selected_accent);
+}
+
+/* Notification popup steam logo overlay image */
+._3RkGkNRNheAkoRA3migph5 {
+    display: none;
 }
 
 /* View Notifications Button with a notification */
