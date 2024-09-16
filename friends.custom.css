@@ -58,3 +58,28 @@
 .titleBarContainer .currentUserContainer ._1BbOegz8bYL7iPzgYpOgQI ._2Ri005Wg_uXDTa71kdRbcN {
     color: var(--hovered_accent);
 }
+
+/* Chat window tabs background */
+.titleBarContainer.ChatTabs {
+    background-color: var(--main_background_alt);
+}
+
+/* Active chat window tab background */
+._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_ {
+    background-color: var(--main_background);
+}
+
+/* Chat notification ellipse color */
+._2ve8VIOIUS5rjAzmJvjVS- {
+    background: radial-gradient(ellipse farthest-corner at 98% 90%, rgba(255, 0, 191, 0.8) 0%, rgba(233, 35, 207, 0.2) 40%, rgba(233, 35, 217, 0) 70%) !important;
+}
+
+/* Chat notification ellipse color */
+._2ve8VIOIUS5rjAzmJvjVS- {
+    background: radial-gradient(ellipse farthest-corner at 98% 90%, rgba(255, 0, 191, 0.8) 0%, rgba(233, 35, 207, 0.2) 40%, rgba(233, 35, 217, 0) 70%) !important;
+}
+
+/* Active chat user in-game text */
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN {
+    background: none;
+}

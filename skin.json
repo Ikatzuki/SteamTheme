@@ -2,7 +2,6 @@
     "name": "SpotifyLookalike",
     "author": "Millennium",
     "description": "An example template theme.",
-
     "discord_support": {
         "inviteCodeExcludingLink": "NcNMP6r2Cw"
     },
@@ -17,7 +16,6 @@
         "Template"
     ],
     "version": "1.0.0",
-
     "Steam-WebKit": "webkit.css",
     "UseDefaultPatches": true
 }
