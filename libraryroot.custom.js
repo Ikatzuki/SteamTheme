@@ -14,8 +14,24 @@ function adjustDropdownMinWidth(dropdown) {
             dropdown.style.minWidth = `${roundedMinWidth}px`;
 
             console.log(`Adjusted min-width from ${parsedMinWidth}px to ${roundedMinWidth}px for element:`, dropdown);
+
+            // Force a refresh (reflow/repaint)
+            refreshDropdown(dropdown);
         }
     }
+}
+
+// Function to refresh the dropdown appearance while hovered
+function refreshDropdown(dropdown) {
+    // Temporarily add a class that forces a re-render or repaint
+    dropdown.classList.add('force-repaint');
+
+    // Use a small timeout to remove the class shortly after to avoid breaking interaction
+    setTimeout(() => {
+        dropdown.classList.remove('force-repaint');
+    }, 10);  // Adjust the delay if needed
+
+    console.log('Dropdown refreshed (repaint forced):', dropdown);
 }
 
 // Function to observe changes in dropdown visibility
@@ -51,3 +67,12 @@ function observeDropdowns() {
 
 // Start observing dropdown activations and adjustments
 observeDropdowns();
+
+// Add some basic CSS to force a repaint when the class is applied
+const style = document.createElement('style');
+style.textContent = `
+  .force-repaint {
+      transform: scale(1.01);  /* Small transform to trigger reflow/repaint */
+  }
+`;
+document.head.append(style);
