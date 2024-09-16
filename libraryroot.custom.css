@@ -169,3 +169,45 @@ html._14wqdluDeDnnEcg3OSLEmd ._1n7Wloe5jZ6fSuvV18NNWI:hover {
     color: white;
     text-shadow: var(--black_outline_text);
 }
+
+/* Library top background between header and library main */
+.RGNMWtyj73_-WdhflrmuY ._2CmrnGY-Amtd83ScJkFvx2 {
+    background: var(--main_background_alt);
+}
+
+/* Library top background random line */
+._2Nq6ov7A1hGcHXVOXNt_OE {
+    border-top: none;
+}
+
+/* Library home button background */
+._2TKEazUUS3TlniZfpc8OOe {
+    background-color: var(--main_background);
+    box-shadow: none;
+}
+
+/* Library home button steam logo */
+._3pSPluBgf0NeR1kkCLWMhR ._1ooROmAgkhoBH_o65yl9dJ svg {
+    display: none;
+}
+
+/* Library games list */
+._3x1HklzyDs4TEjACrRO2tB {
+    background-image: none;
+    background: var(--main_background);
+}
+
+/* Library What's New header section */
+._17uEBe5Ri8TMsnfELvs8-N {
+    background: var(--main_background_alt);
+}
+
+/* Library Recent Games, Play Next etc sections */
+._3Sb2o_mQ30IDRh0C72QUUu {
+    background: var(--main_background_alt);
+}
+
+/* Library Scrollbar right side */
+._2AUVZlzQq67qe3yhLZsPPB::-webkit-scrollbar {
+    background: var(--main_background);
+}
