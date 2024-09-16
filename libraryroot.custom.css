@@ -101,16 +101,6 @@ html._14wqdluDeDnnEcg3OSLEmd ._1n7Wloe5jZ6fSuvV18NNWI:hover {
     text-shadow: var(--black_outline_text);
 }
 
-/* Temp fix for store dropdown issue */
-.PP7LM0Ow1K5qkR8WElLpt[style*="min-width: 144.656px"] {
-    min-width: 145px !important;
-}
-
-/* Temp fix for library dropdown issue */
-.PP7LM0Ow1K5qkR8WElLpt[style*="min-width: 108.875px"] {
-    min-width: 126px !important;
-}
-
 /* Notification popup */
 ._1OOQPJx0nCNP9ME9toCmV7 {
     border-radius: 5px;
