@@ -125,6 +125,11 @@ html._14wqdluDeDnnEcg3OSLEmd ._1n7Wloe5jZ6fSuvV18NNWI:hover {
     border: 1px solid var(--selected_accent);
 }
 
+/* Notification popup, some hover thing? Ty MetroSteam */
+._1OOQPJx0nCNP9ME9toCmV7::before {
+    background: rgb(var(--white05));
+}
+
 /* Notification popup steam logo overlay image */
 ._3RkGkNRNheAkoRA3migph5 {
     display: none;
@@ -156,4 +161,11 @@ html._14wqdluDeDnnEcg3OSLEmd ._1n7Wloe5jZ6fSuvV18NNWI:hover {
 .title-area-icon .SVGIcon_Maximize line,
 .title-area-icon.minimizeButton .title-area-icon-inner .SVGIcon_Button.SVGIcon_Minimize line {
     stroke: white;
+}
+
+/* Top right mini activity button */
+._3yD46y5pd3zOGR7CzKs0mC.ingame {
+    background-color: var(--selected_accent);
+    color: white;
+    text-shadow: var(--black_outline_text);
 }
