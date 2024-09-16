@@ -30,58 +30,40 @@ body.v6.infinite_scrolling #footer.small_footer {
     background: var(--main_background_alt) !important;
 }
 
-::-webkit-scrollbar-thumb {
-    background-color: #00ff15 !important;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: var(--main_background) !important;
-}
-
-body::-webkit-scrollbar-thumb:window-active {
-	background: var(--main_background) !important;
-}
-
-body::-webkit-scrollbar-thumb:window-inactive {
-	background: #e4e4e4 !important;
-}
-
-body::-webkit-scrollbar-thumb:window-inactive:hover {
-	background: var(--hovered_accent) !important;
-}
-
+/* Scrollbar */
 body::-webkit-scrollbar-thumb {
-	background-color: var(--main_background) !important;
+    background: #ffffff !important;
 }
 
+/* Scrollbar - Hovered */
 body::-webkit-scrollbar-thumb:hover {
-	background-color: var(--main_background) !important;
+    background: var(--hovered_accent) !important;
 }
 
+/* Scrollbar - Clicked */
+body::-webkit-scrollbar-thumb:active {
+    background: var(--selected_accent) !important;
+}
+
+/* Scrollbar track background */
 body::-webkit-scrollbar {
-	background-color: var(--main_background_alt) !important;
-}
-
-body::-webkit-scrollbar-track {
-
-}
-
-.DialogBody::-webkit-scrollbar {
-	display:none!important;
+    background: var(--main_background_alt) !important;
 }
 
 /* Top store bar background (Your Store, New & Noteworthy, Categories) */
-#store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
+#store_nav_area .store_nav_bg,
+.home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
     background: var(--main_background_alt) !important;
 }
 
 /* Top store bar button text (Your Store, New & Noteworthy, Categories) */
-.a.pulldown_desktop, .store_nav .tab > span {
+.a.pulldown_desktop,
+.store_nav .tab>span {
     text-shadow: var(--black_outline_text) !important;
 }
 
 /* Top store bar button text (Your Store, New & Noteworthy, Categories) - Hovered */
-.store_nav .tab:hover > span {
+.store_nav .tab:hover>span {
     background: linear-gradient(90deg, rgb(244, 33, 226, 90%) 10%, rgb(0 0 0 / 10%)) !important;
 }
 
@@ -111,7 +93,8 @@ body::-webkit-scrollbar-track {
 }
 
 /* Top store bar search bar default input text */
-.searchbox input.default, input#store_nav_search_term {
+.searchbox input.default,
+input#store_nav_search_term {
     margin-top: 2px !important;
     font-size: 16px !important;
     height: 20px !important;
@@ -129,7 +112,7 @@ input#store_nav_search_term::selection {
 
 /* Top store bar search bar default input text webkit */
 input::-webkit-input-placeholder {
-	opacity:1 !important;
+    opacity: 1 !important;
     color: white !important;
 }
 
@@ -171,7 +154,7 @@ input::-webkit-input-placeholder {
 }
 
 /* Special offer cards price background */
-.store_capsule .discount_block.daily_deal_discount > .discount_prices {
+.store_capsule .discount_block.daily_deal_discount>.discount_prices {
     background: var(--main_background_alt2) !important;
 }
 
@@ -233,7 +216,8 @@ body.v6 .deep_dive_tag {
 }
 
 /* New & Trending, Top Sellers etc category lists see more footer */
-.tab_see_more, .tab_see_more::selection {
+.tab_see_more,
+.tab_see_more::selection {
     background-color: none !important;
     color: white !important;
     text-shadow: var(--black_outline_text) !important;
@@ -275,19 +259,19 @@ body.v6 .deep_dive_tag {
 }
 
 /* The community recommends */
-.community_recommendation_app > .right_col {
+.community_recommendation_app>.right_col {
     background: var(--main_background_alt) !important;
 }
 
 /* The community recommends left/right buttons */
-.community_recommendation_app > .right_col > .paging_thumbs > .community_recommendation_arrow {
+.community_recommendation_app>.right_col>.paging_thumbs>.community_recommendation_arrow {
     color: white !important;
     text-shadow: var(--black_outline_text) !important;
     background-color: var(--main_background_alt2) !important;
 }
 
 /* The community recommends left/right buttons - Hovered */
-.community_recommendation_app > .right_col > .paging_thumbs > .community_recommendation_arrow:hover {
+.community_recommendation_app>.right_col>.paging_thumbs>.community_recommendation_arrow:hover {
     color: white !important;
     text-shadow: var(--black_outline_text) !important;
     background-color: var(--hovered_accent) !important;
@@ -295,10 +279,10 @@ body.v6 .deep_dive_tag {
 
 /* Big left/right buttons next to carousel containers */
 .carousel_container .arrow.right:hover {
-    background: linear-gradient(to right, rgba( 171, 218, 244, 0) 5%,rgba(255, 142, 246, 0.568) 95%) !important;
+    background: linear-gradient(to right, rgba(171, 218, 244, 0) 5%, rgba(255, 142, 246, 0.568) 95%) !important;
 }
 
 /* Big left/right buttons next to carousel containers */
 .carousel_container .arrow.left:hover {
-    background: linear-gradient(to left, rgba( 171, 218, 244, 0) 5%,rgba(255, 142, 246, 0.568) 95%) !important;
+    background: linear-gradient(to left, rgba(171, 218, 244, 0) 5%, rgba(255, 142, 246, 0.568) 95%) !important;
 }
