@@ -218,3 +218,23 @@ html._14wqdluDeDnnEcg3OSLEmd ._1n7Wloe5jZ6fSuvV18NNWI:hover {
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install:hover {
     background: linear-gradient(-45deg, #ff5af1 8%, #ff56f1 90%);
 }
+
+/* Scrollbar */
+::-webkit-scrollbar-thumb {
+    background: #ffffff !important;
+}
+
+/* Scrollbar - Hovered */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--hovered_accent) !important;
+}
+
+/* Scrollbar - Clicked */
+::-webkit-scrollbar-thumb:active {
+    background: var(--selected_accent) !important;
+}
+
+/* Scrollbar track background */
+::-webkit-scrollbar {
+    background: var(--main_background_alt) !important;
+}
