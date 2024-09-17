@@ -201,3 +201,20 @@ html._14wqdluDeDnnEcg3OSLEmd ._1n7Wloe5jZ6fSuvV18NNWI:hover {
 ._2AUVZlzQq67qe3yhLZsPPB::-webkit-scrollbar {
     background: var(--main_background);
 }
+
+/* Library games right click menu */
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover, .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
+    color: white;
+    text-shadow: var(--black_outline_text);
+    background: var(--hovered_accent);
+}
+
+/* Library games right click menu install button */
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install {
+    background: linear-gradient(-45deg, #d600c4 8%, #ff1ae0 90%);
+}
+
+/* Library games right click menu install button - Hovered */
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install:hover {
+    background: linear-gradient(-45deg, #ff5af1 8%, #ff56f1 90%);
+}
