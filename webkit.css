@@ -286,3 +286,37 @@ body.v6 .deep_dive_tag {
 .carousel_container .arrow.left:hover {
     background: linear-gradient(to left, rgba(171, 218, 244, 0) 5%, rgba(255, 142, 246, 0.568) 95%) !important;
 }
+
+/* Games search dropdown menu */
+body.v6 .store_nav .popup_block_new .popup_body.search_v2 {
+    background: var(--main_background) !important;
+}
+
+/* Games search dropdown menu game block - Hovered */
+.popup_body.search_v2 .match.match_v2:hover {
+    background-color: var(--hovered_accent) !important;
+}
+
+/* Games search dropdown menu game name */
+.popup_body.search_v2 .match.match_v2 .match_name {
+    color: white !important;
+    text-shadow: var(--black_outline_text) !important;
+}
+
+/* Games search dropdown menu game price */
+.popup_body.search_v2 .match.match_v2 .match_subtitle {
+    color: white !important;
+    text-shadow: var(--black_outline_text) !important;
+}
+
+/* Games search dropdown menu game price - Hovered*/
+.popup_body.search_v2 .match.match_v2:hover .match_subtitle {
+    color: white !important;
+    text-shadow: var(--black_outline_text) !important;
+}
+
+/* Games search dropdown menu game name - Hovered */
+.popup_body.search_v2 .match.match_v2:hover .match_name {
+    color: white !important;
+    text-shadow: var(--black_outline_text) !important;
+}
